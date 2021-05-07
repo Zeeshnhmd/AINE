@@ -1,0 +1,90 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+body {
+  background: #f3f5f9;
+}
+/* wrapper */
+.wrapper {
+  display: flex;
+  position: relative;
+  float: left;
+  width: 10%;
+}
+
+.wrapper .sidebar {
+  position: fixed;
+  height: 100%;
+  background: #fff;
+  box-shadow: 10px 0 10px lightgray;
+  padding: 100px 0;
+}
+.wrapper .sidebar img {
+  position: fixed;
+  top: 0;
+  left: 1.5%;
+}
+.wrapper .sidebar ul li {
+  padding: 30px;
+  text-align: center;
+  cursor: pointer;
+}
+.wrapper .sidebar ul li:nth-child(even) {
+  background: rgb(199, 214, 241);
+  border-left: 3px solid blue;
+}
+
+/* white */
+.white {
+  background: #fff;
+  padding: 50px;
+}
+
+/* container */
+.container {
+  float: right;
+  width: 90%;
+}
+.play {
+  margin-left: 4rem;
+  margin-top: 2rem;
+  text-align: left;
+  color: rgb(95, 92, 92);
+  cursor: pointer;
+}
+.play i {
+  float: left;
+  display: inline-block;
+  margin: 5px;
+}
+.url {
+  margin-left: 10rem;
+  margin-top: 5rem;
+  margin-right: 7rem;
+
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 10px;
+}
+.or {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+}
+.upload {
+  background-color: #fff;
+  height: 10rem;
+  width: 10rem;
+  margin-left: 10rem;
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
